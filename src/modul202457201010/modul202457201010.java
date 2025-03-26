@@ -6,7 +6,7 @@ package modul202457201010;
 
 /**
  *
- * @author user
+ * @author Alia - 202457201010
  */
 public class modul202457201010 {
     public static void main(String[] args) {
