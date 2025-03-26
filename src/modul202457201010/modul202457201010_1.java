@@ -8,7 +8,7 @@ import javax.swing.JOptionPane;
 
 /**
  *
- * @author user
+ * @author Alia - 202457201010
  */
 public class modul202457201010_1 {
     public static void main(String[] args) {

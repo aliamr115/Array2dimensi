@@ -6,7 +6,7 @@ package modul202457201010;
 
 /**
  *
- * @author user
+ * @author Alia - 202457201010
  */
 public class modul202457201010_2 {
     public static void main(String[] args) {
@@ -20,7 +20,8 @@ public class modul202457201010_2 {
             }
             System.out.println("");
         }
-        System.out.println("\nArray Baris ke-1 ");
+        System.out.println("-------------------");
+        System.out.println("\nArray Baris ke-1 :");
         for(int a=0; a<data[0].length; a++){
             if (a % 2 !=0){
                 System.out.print(data[0][a]);
@@ -32,16 +33,16 @@ public class modul202457201010_2 {
               total1 += data[0][a];
         }
         }
+          
             System.out.print(total1);
-        
-        System.out.println("\nArray Baris ke-2 :");
+            System.out.println("\nArray Baris ke-2 :");
         for (int b =0; b<data[1].length; b++){
             if(b%2 != 0){
                 System.out.print(data[1][b]);
                 if(b == (data[0].length -1)){
-                    System.out.print(" =");
+                    System.out.print(" = ");
                 }else{
-                    System.out.print(" +");
+                    System.out.print(" + ");
                 }
                 total2 += data[1][b];
             }
