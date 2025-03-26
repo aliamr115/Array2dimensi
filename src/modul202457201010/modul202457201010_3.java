@@ -10,19 +10,25 @@ package modul202457201010;
  */
 public class modul202457201010_3 {
     public static void main(String[] args) {
-       String data[][] = {{"NAMA\t", "TELEPON\t", "ALAMAT\t"},
-{"ABDUL\t", "085646668991\t", "Kediri\t"},
-{"KUSNO\t", "085646668992\t", "Treanggalek\t"},
-{"PONIRAN\t", "085646668999\t","Bojonegoro\t"}};
-           
-        for (int a = 0; a<data.length; a++) { 
-             for (int b = 0; b<data[0].length; b++) { 
-                 System.out.print(data[a][b] + " "); 
+       String data[][]= {
+         {"ABDUL","Kediri","085646668991"},
+         {"KUSNO","Trenggalek","085646668992"},
+         {"PONIRAN","Bojonegoro","085656668999"}
+     };
+     
+     System.out.print("NAMA\t");
+     System.out.print(" ALAMAT\t");
+     System.out.print("        TELEPON\t");
+     System.out.println("");
+     String nama ="";
+     
+     
+      for (int a = 0; a<data.length; a++) { 
+            System.out.print(String.format("%-10s",data[a][0]));
+            System.out.print(String.format("%-15s",data[a][1]));
+            System.out.print(String.format("%-10s",data[a][2]));
+            System.out.println("");
              } 
-             System.out.print("\n"); 
-        }
-        
-        
     }
            
 }
