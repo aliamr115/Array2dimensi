@@ -14,9 +14,9 @@ public class modul202457201010_2 {
         double total1 =0; double total2 =0; double total3 =0;
         
         
-        for (int[] data1 : data) {
-            for (int b = 0; b < data1.length; b++) {
-                System.out.print(data1[b] + " ");
+        for (int a =0; a<data.length; a++) {
+            for (int b = 0; b < data[a].length; b++) {
+                System.out.print(data[a][b] + " ");
             }
             System.out.println("");
         }
